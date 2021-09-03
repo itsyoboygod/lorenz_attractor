@@ -45,7 +45,7 @@ class Application:
         self.attractors = []
         self.size = self.width, self.height = 1920, 1080
         self.count = 0
-        self.outoutCount = 1
+        self.outputCount = 1
     
     def on_init(self):
         pygame.init()
@@ -88,4 +88,4 @@ class Application:
 
 if __name__ == "__main__":
     t = Application()
-    t.on_execute()       
+    t.on_execute()      
